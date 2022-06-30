@@ -17,8 +17,9 @@ from astropy.cosmology import FlatLambdaCDM
 cosmo = FlatLambdaCDM(H0=70., Om0=0.3)
 
 import sys
-sys.path.append("/Users/yuhanyao/Dropbox/Projects/AT2020mrf/code/helper")
+sys.path.append("/Users/yuhanyao/Dropbox/Projects/AT2020mrf/opt_lc")
 from load_opt_phot import load_18cow_phot, planck_lambda
+sys.path.append("/Users/yuhanyao/Dropbox/Projects/AT2020mrf/code/helper")
 from specconvolve import convolve_with_constant_velocity_kernel
 
 

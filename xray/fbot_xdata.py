@@ -89,7 +89,7 @@ def add_SNeIbn_xlc(ax):
     yy = df["f"]*multi
     yerr = df["f+"]*multi
     ax.errorbar(xx, yy, yerr = yerr, xerr = xerr,
-                color = color, zorder = 1, fmt = ".:", marker = "<",
+                color = color, zorder = 1, fmt = "<:", 
                 markersize = 3, elinewidth = 0.3, linewidth = 1, label = "SNe Ibn")
     ax.text(200, 1e+39, "06jc", fontsize = fs-1, color = color)
     
@@ -104,7 +104,7 @@ def add_SNeIbn_xlc(ax):
     yerr_right = df["f+"]*multi
     yerr_left = df["f-"]*multi
     ax.errorbar(xx, yy, yerr = [yerr_left, yerr_right], xerr = xerr,
-                color = color, zorder = 1, fmt = ".:", marker = "<",
+                color = color, zorder = 1, fmt = "<:",
                 markersize = 3, elinewidth = 0.3, linewidth = 1)
     ax.text(15, 1e+40, "10al", fontsize = fs-1, color = color)
     
@@ -142,7 +142,7 @@ def add_tde_lcs(ax, toBrad = False):
     
     ax.errorbar(xx, yy, yerr = [yerr_left, yerr_right], 
                 xerr = [xerr_left, xerr_right],
-                color = color, zorder = 1, fmt = "+-", markersize = 1,
+                color = color, zorder = 1, marker = "+", markersize = 1,
                 elinewidth = 0.3, linewidth = 0.3, linestyle = ":")
     if toBrad:
         ax.text(60, 2e+46, "SwiftJ1644", color = color, fontsize = fs, weight="bold")

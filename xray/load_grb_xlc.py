@@ -121,8 +121,8 @@ def add_xlc_sn2003dh(ax):
     yerr_left = df["f-"]*multi
     color = "gray"
     ax.errorbar(xx, yy, yerr = [yerr_left, yerr_right],
-                color = color, zorder = 2, fmt = ".-", markersize = 1,
-                elinewidth = 0.5, linewidth = 1.5, linestyle = "--")
+                color = color, zorder = 2, fmt = ".--", markersize = 1,
+                elinewidth = 0.5, linewidth = 1.5)
     ax.text(2.2, 1.8e+44, "030329/03dh", fontsize = fs-1, color = color, rotation = -33)
 
 
@@ -163,8 +163,8 @@ def add_xlc_sn2006aj(ax):
     yerr_left = df["f-"]*multi
     color = "gray"
     ax.errorbar(xx, yy, yerr = [yerr_left, yerr_right],
-                color = color, zorder = 1, fmt = ".-", markersize = 1,
-                elinewidth = 0.5, linewidth = 1.5, linestyle = "--")
+                color = color, zorder = 1, fmt = ".--", markersize = 1,
+                elinewidth = 0.5, linewidth = 1.5)
     ax.text(2.2, 1e+42, "060218/06aj", fontsize = fs-1, color = color, rotation = -30)
     
     
@@ -180,8 +180,8 @@ def add_xlc_sn2010dh(ax):
     yerr_left = df["f-"]*multi
     color = "gray"
     ax.errorbar(xx, yy, yerr = [yerr_left, yerr_right],
-                color = color, zorder = 1, fmt = ".-", markersize = 1,
-                elinewidth = 0.5, linewidth = 1.5, linestyle = "--")
+                color = color, zorder = 1, fmt = ".--", markersize = 1,
+                elinewidth = 0.5, linewidth = 1.5)
     ax.text(2.2, 2.5e+41, "100316D/10dh", fontsize = fs-1, color = color)
     
     
@@ -297,12 +297,11 @@ def add_grb_lcs(ax, dobin = True, color = "lightskyblue"):
             if i==0:
                 ax.errorbar(xx, yy, yerr = [yerr_left, yerr_right],
                             color = color, zorder = 1, fmt = "x-", markersize = 1,
-                            elinewidth = 0.3, linewidth = 0.6, linestyle = "-",
-                            label = "GRBs")
+                            elinewidth = 0.3, linewidth = 0.6,label = "GRBs")
             else:
                 ax.errorbar(xx, yy, yerr = [yerr_left, yerr_right],
-                            color = color, zorder = 1, fmt = "x-", markersize = 1,
-                            elinewidth = 0.3, linewidth = 0.6, linestyle = "-")
+                            color = color, zorder = 1, fmt = "x", markersize = 1,
+                            elinewidth = 0.3, linewidth = 0.6)
         else:
             # crude way to make bins wider at late-time
             bins_pre = np.arange( 1, 5, 0.1)
@@ -320,12 +319,11 @@ def add_grb_lcs(ax, dobin = True, color = "lightskyblue"):
             if i==0:
                 ax.errorbar(x, y, ey,
                             color = color, zorder = 1, fmt = "x-", markersize = 1,
-                            elinewidth = 0.3, linewidth = 0.6, linestyle = "-",
-                            label = "GRBs")
+                            elinewidth = 0.3, linewidth = 0.6, label = "GRBs")
             else:
                 ax.errorbar(x, y, ey,
                             color = color, zorder = 1, fmt = "x-", markersize = 1,
-                            elinewidth = 0.3, linewidth = 0.6, linestyle = "-")
+                            elinewidth = 0.3, linewidth = 0.6)
     print ("%d GRBs plotted"%(i+1))
 
 
@@ -508,7 +506,7 @@ def add_SNeIIn_xlc(ax):
     xx = df["t"]
     yy = df["f"]*multi
     yerr = df["ferr"]*multi
-    ax.errorbar(xx, yy, yerr, color = color, zorder = 1, fmt = ">:", 
+    ax.errorbar(xx, yy, yerr, color = color, zorder = 1, marker = ">", 
                 markersize = 2, linestyle = "-.",
                 elinewidth = 0.5, linewidth = 0.6, label = "SNe IIn")
     ax.text(1050, 1.5e+40, "10jl", fontsize = fs-1, color = color)
@@ -524,7 +522,7 @@ def add_SNeIIn_xlc(ax):
     yerr_right = df["f+"]*multi
     yerr_left = df["f-"]*multi
     ax.errorbar(xx, yy, [yerr_left, yerr_right],
-                color = color, zorder = 1, fmt = ">:", markersize = 2,
+                color = color, zorder = 1, marker = ">", markersize = 2,
                 linestyle = "-.",elinewidth = 0.5, linewidth = 0.6)
     ax.text(1070, 1e+41, "05kd", fontsize = fs-1, color = color)
     
@@ -538,6 +536,6 @@ def add_SNeIIn_xlc(ax):
     yerr_right = df["f+"]*multi
     yerr_left = df["f-"]*multi
     ax.errorbar(xx, yy, [yerr_left, yerr_right],
-                color = color, zorder = 1, fmt = ">:", markersize = 2,
+                color = color, zorder = 1, marker = ">", markersize = 2,
                 linestyle = "-.",elinewidth = 0.5, linewidth = 0.6)
     ax.text(1000, 3e+41, "06jd", fontsize = fs-1, color = color)

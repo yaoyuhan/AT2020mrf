@@ -16,6 +16,7 @@ If you use code in this repository, please cite the paper [Yao et al. 2022, ApJ,
   * upper panel: [host/plot_host_spec.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/plot_host_spec.ipynb)
   * bottom panel: [host/plot_ppxf_zoom.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/plot_ppxf_zoom.ipynb)
 * Figure 10: [host/BPT_diagram.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/BPT_diagram.ipynb)
+* Figure 11: [radio/radio_diagram.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/radio/radio_diagram.ipynb)
 * Figure 12: [radio/plot_radio_sed.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/radio/plot_radio_sed.ipynb)
 * Figure 15
   * left panel: [host/SFR_Mstar.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/SFR_Mstar.ipynb)

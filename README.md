@@ -19,6 +19,7 @@ If you use code in this repository, please cite the paper [Yao et al. 2022, ApJ,
 * Figure 11: [radio/radio_diagram.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/radio/radio_diagram.ipynb)
 * Figure 12: [radio/plot_radio_sed.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/radio/plot_radio_sed.ipynb)
 * Figure 13: [opt_lc/compare_color.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/opt_lc/compare_color.ipynb)
+* Figure 14: [opt_lc/nickel_power_lc.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/opt_lc/nickel_power_lc.ipynb)
 * Figure 15
   * left panel: [host/SFR_Mstar.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/SFR_Mstar.ipynb)
   * right panel: [host/sSFR_Mstar.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/sSFR_Mstar.ipynb)

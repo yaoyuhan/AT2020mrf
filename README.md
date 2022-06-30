@@ -22,3 +22,4 @@ If you use code in this repository, please cite the paper [Yao et al. 2022, ApJ,
 * Figure 15
   * left panel: [host/SFR_Mstar.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/SFR_Mstar.ipynb)
   * right panel: [host/sSFR_Mstar.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/sSFR_Mstar.ipynb)
+* Figure 16: [multiband/multiband_sed.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/multiband/multiband_sed.ipynb)

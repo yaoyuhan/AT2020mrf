@@ -11,10 +11,12 @@ If you use code in this repository, please cite the paper [Yao et al. 2022, ApJ,
 * Figure 5: [xray/eRASS_x_spec.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/xray/eRASS_x_spec.ipynb)
 * Figure 6: [xray/cxo_x_spec.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/xray/cxo_x_spec.ipynb)
 * Figure 7: [xray/compare_xray_lcs.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/xray/compare_xray_lcs.ipynb)
+* Figure 8: [radio/plot_radio_sed.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/radio/plot_radio_sed.ipynb)
 * Figure 9
   * upper panel: [host/plot_host_spec.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/plot_host_spec.ipynb)
   * bottom panel: [host/plot_ppxf_zoom.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/plot_ppxf_zoom.ipynb)
 * Figure 10: [host/BPT_diagram.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/BPT_diagram.ipynb)
+* Figure 12: [radio/plot_radio_sed.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/radio/plot_radio_sed.ipynb)
 * Figure 15
   * left panel: [host/SFR_Mstar.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/SFR_Mstar.ipynb)
   * right panel: [host/sSFR_Mstar.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/sSFR_Mstar.ipynb)

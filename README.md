@@ -5,3 +5,4 @@ This repository contains everything about AT2020mrf, a AT2018cow-like optical tr
 - Figure 1:
 - Figure 2: [opt_spec/plot_optical_spectrum.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/opt_spec/plot_optical_spectrum.ipynb)
 - Figure 3: [host/host_image.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/host_image.ipynb)
+- Figure 10: [host/BPT_diagram.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/host/BPT_diagram.ipynb)

@@ -16,7 +16,7 @@ from scipy.interpolate import splrep, splev, interp1d
 from collections import OrderedDict as odict
 
 import sys
-sys.path.append("/Users/yuhanyao/Documents/ZTF18abjpmzf/playground/")
+sys.path.append("/Users/yuhanyao/Dropbox/Projects/AT2020mrf/code/")
 from helper.specconvolve import convolve_with_constant_velocity_kernel
 
 

@@ -2,7 +2,7 @@
 
 This repository contains everything about AT2020mrf, a AT2018cow-like optical transient that shows very luminous radio and X-ray emission. 
 
-If you use code in this repository, please cite the paper [Yao et al. 2022, ApJ, in press](https://arxiv.org/abs/2112.00751)
+If you use code in this repository, please cite the paper [Yao et al. 2022, ApJ, 934, 104](https://iopscience.iop.org/article/10.3847/1538-4357/ac7a41)
 
 * Figure 1: [opt_lc/plot_optical_lc.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/opt_lc/plot_optical_lc.ipynb)
 * Figure 2: [opt_spec/plot_optical_spectrum.ipynb](https://github.com/yaoyuhan/AT2020mrf/blob/master/opt_spec/plot_optical_spectrum.ipynb)
